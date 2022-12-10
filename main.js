@@ -1,5 +1,3 @@
-function getType(data){
-  return Object.prototype.toString.call(data)
-}
+import getType from "./getType";
 
 console.log(getType(null));
